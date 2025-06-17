@@ -1,4 +1,7 @@
-# Aula 2 - IaC com Vagrant e Ansible
+# Aula 2 - IaC com Vagrant e Ansible [1º DESAFIO]
+![Banner](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/banner.png)
+
+Primeiro desafio do BootCamp DevOps do Instituto Atlântico.
 
 Neste repositório, **explorei** o uso de **Vagrant** e **Ansible** para criar e gerenciar máquinas virtuais. Também **realizei** o deploy do site "Mundo Invertido".
 
@@ -26,7 +29,7 @@ Neste repositório, **explorei** o uso de **Vagrant** e **Ansible** para criar e
     git clone https://gitlab.com/dvp2025-2/aula-2-iac-com-vagrant-e-ansible.git
     cd aula-2-iac-com-vagrant-e-ansible
     ```
-![Virtual Box](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/virtualbox.png)
+
 
 2.  **Inicialize o Vagrant:**
     ```bash
@@ -98,11 +101,13 @@ Neste repositório, **explorei** o uso de **Vagrant** e **Ansible** para criar e
     ```
     ![Subindo Vagrant](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/vagrant-up.png)
     ![Subindo Vagrant](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/vagrant-up2.png)
+    ![Virtual Box](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/virtualbox.png)
 
 6.  **Acesse o site:**
     Após o provisionamento, acesse no navegador: [http://localhost:8080](http://localhost:8080)
     O resultado é este:
     ![Site Deployed](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/site-deployed.png)
+    Funcionalidade do site:
     ![Site Running](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/site-running.png)
 
 7.  **Desprovisionar a máquina virtual:**
@@ -121,6 +126,8 @@ Neste repositório, **explorei** o uso de **Vagrant** e **Ansible** para criar e
         code files/index.html.j2
         ```
     -   Consultei a documentação do módulo `template`: [https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html)
+    
+  ![Template Ansible](ihttps://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/template.png)
 -   Após configurar o módulo `template`, **provisionei** novamente:
     ```bash
     vagrant provision
