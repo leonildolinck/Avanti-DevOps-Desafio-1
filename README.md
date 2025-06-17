@@ -127,7 +127,7 @@ Neste repositório, **explorei** o uso de **Vagrant** e **Ansible** para criar e
         ```
     -   Consultei a documentação do módulo `template`: [https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html)
     
-  ![Template Ansible](ihttps://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/template.png)
+  ![Template Ansible](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/template.png)
 -   Após configurar o módulo `template`, **provisionei** novamente:
     ```bash
     vagrant provision
@@ -135,3 +135,13 @@ Neste repositório, **explorei** o uso de **Vagrant** e **Ansible** para criar e
 ![Desafio Provision](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/desafio-provision.png)    
 -   **Acessando** o site novamente e **verificando** se a alteração foi aplicada: [http://localhost:8080](http://localhost:8080)
 ![Mundo Invertido](https://github.com/leonildolinck/Avanti-DevOps-Desafio-1/blob/main/screenshots/desafio.png)
+
+---
+
+## Projeto individual
+
+Este projeto foi desenvolvido com base em conceitos aprendidos durante o bootcamp, visando simplicidade e eficiência. Para eventuais dúvidas ou melhorias, sinta-se à vontade para entrar em contato.
+
+### Contato:
+- **E-mail**: leonildolinck@gmail.com 
+- **Discord**: leonildo
