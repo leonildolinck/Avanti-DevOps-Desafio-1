@@ -15,13 +15,26 @@
       tags:
         - packages
 
-    - name: Copia a página web para o diretório do Nginx
-      copy:
-        src: files/
-        dest: /var/www/html
+
+#    - name: Copia a página web para o diretório do Nginx
+#      copy:
+#        src: files/
+#        dest: /var/www/html
+#        owner: www-data
+#        group: www-data
+#        mode: '0644'
+#      notify:
+#        - Reiniciar Nginx
+
+    - name: Altera a página web a partir do template
+      ansible.builtin.template:
+        src: files/index.html.j2
+        dest: /var/www/html/index.html
         owner: www-data
         group: www-data
         mode: '0644'
+      vars:
+        nome: Devopeiro
       notify:
         - Reiniciar Nginx
 
